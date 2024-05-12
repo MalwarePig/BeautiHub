@@ -1,0 +1,31 @@
+button{
+    
+    height:50px;
+    position:relative;
+    background: #19171d;
+    text-transform:uppercase;
+    color:rgb(248, 248, 248);
+    font-weight:200;
+    letter-spacing:1px;
+    border: none;
+    border-radius: 8px;
+    font-size:15px;
+    outline:none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    cursor: pointer;
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  button:hover {
+    background: #29282d; 
+  }
+
+  .Separator{
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 15px;
+  }
+ 
