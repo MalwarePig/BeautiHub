@@ -1,0 +1,13 @@
+.CardRoyal{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    background: #1c1a28;
+    display: flex; /* or inline-flex */
+    flex-direction: row;  
+    justify-content:  space-around; 
+    align-content: center;
+    
+}

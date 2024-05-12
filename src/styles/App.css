@@ -1,60 +1,61 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    background: '#0f0d13';
-  
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-   
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #0f0d13;
 
-.Container{
-    background: #0f0d13;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-template-rows: repeat(12,1fr);
-    gap: 5px;
-  
-    height: 95vh;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.NavBar{
-    background: #19171d;
-    border: 2px solid rgb(185, 185, 185);
-    border-radius: 8px;
-    grid-row-start: 1; 
-    grid-row-end: 13;
+.Container {
+ 
+  background: #0f0d13;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: repeat(12, 1fr);
+  border-collapse: collapse; 
+  height: 98vh;
+}
 
-    display: flex;
+.NavBar {
+  font-size: larger;
+  background: #19171d;
+  /*  border: 2px solid rgb(185, 185, 185); */
+  /* border-radius: 8px; */
+  border-right: 1px solid orange;
+  grid-row-start: 1;
+  grid-row-end: 13;
+
+  display: flex;
   flex-direction: column;
-  
 }
 
-.Search{
-   /*  height: 10%; */
-   background: '#0f0d13';
-    border: 2px solid rgb(185, 185, 185);
-    border-radius: 8px; 
+.Search {
+  margin-left: none;
+  border-bottom: 1px solid orange;
+  /*  height: 10%; */
+  background: "#0f0d13";
+  /*   border: 2px solid rgb(185, 185, 185); */
+  /*   border-radius: 8px;  */
 }
 
-.Place{
-    height: 100%;
-    background: '#0f0d13';
-    border: 2px solid rgb(185, 185, 185);
-    border-radius: 8px; 
-    grid-row-start: 2; 
-    grid-row-end: 13;
+.Place {
+  height: 100%;
+  background: "#0f0d13";
+  /*  border: 2px solid rgb(185, 185, 185); */
+  border-radius: 8px;
+  grid-row-start: 2;
+  grid-row-end: 13;
 }
 
-
-
-
-
-
-
+.Title {
+  margin-top:10px;
+  margin-left: 15px;
+  color: #5a0c93; 
+}

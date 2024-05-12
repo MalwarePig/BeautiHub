@@ -16,9 +16,6 @@ export function ButtonsSucces(props) {
     return ( 
         <button><FaHouse/> Home</button> 
     )
-    
-    
-    
   }
 
   export function ButtonExplorer(props) {

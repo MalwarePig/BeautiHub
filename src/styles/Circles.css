@@ -1,0 +1,7 @@
+.CircleForm {
+  background: orange;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  width: 200px;
+  height: 200px;
+}
