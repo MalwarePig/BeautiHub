@@ -10,6 +10,7 @@ export function RowsCards(props){
 
     return (
         <div  className='CardRoyal'>
+
             <div className='Insignia'>
                 <FaWebAwesome/> 
                 <h4>Royal Club</h4>
@@ -34,6 +35,14 @@ export function RowsCards(props){
                 <FaScissors/>
                 <FaSprayCan/>
                 <FaSpa/>
+            </div>
+
+            <div className='Geo'>
+                <h2>{props.Geo}</h2>   
+            </div>
+
+            <div className='Horarios'>
+                <h2>{props.Horarios}</h2>   
             </div>
           
         </div> 
