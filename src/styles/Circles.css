@@ -4,4 +4,33 @@
   border: 1px solid lightgrey;
   width: 200px;
   height: 200px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-content: end;
+  justify-content: end;
+}
+
+.CircleForm:hover{
+  background: rgb(214, 137, 210);
+  border: 1px solid lightgrey;
+}
+
+img{
+  align-content: end;
+  justify-content: end;
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  width: 100px; 
+  margin-top: 5px;
+}
+
+p{
+  grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 2;
+
+  align-content: center;
+  justify-content: center;
 }

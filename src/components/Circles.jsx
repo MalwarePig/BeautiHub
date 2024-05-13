@@ -1,11 +1,11 @@
 import './../styles/Circles.css'
 
 
-export function Circles() {
+export function Circles(props) {
     return(
         <div className="CircleForm">
-            <h2>ssss</h2>
-            <h2>dd</h2>
+            <img src={props.ruta}  ></img>
+            <p>{props.Title}</p>
         </div>
     )
     
