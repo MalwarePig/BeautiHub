@@ -1,6 +1,7 @@
 import {ButtonHome,ButtonExplorer,ButtonFavorite,Separator} from './NavButtons.jsx'
 import {InputSearch} from './Inputs.jsx';
 import {Explorer} from './Explorer.jsx';
+import {Favorites} from './Favorites.jsx';
 
 export function App(params) {
   return (
@@ -12,6 +13,8 @@ export function App(params) {
         <ButtonExplorer/>
         <ButtonFavorite/>
         <Separator/>
+        <Favorites  ruta = './images/masaje.png' Title="Spa" SubTitle="Chida"/>
+        
       </div>
      
       <div className="Search">
@@ -19,7 +22,7 @@ export function App(params) {
       </div>
 
       <div className="Place">
-        <Explorer/>
+        <Explorer ruta = './images/barberia.png' Title="Barberia" />
       </div>
     </div>
   );

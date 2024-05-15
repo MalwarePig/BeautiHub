@@ -16,10 +16,10 @@ export function Explorer() {
       </div>
 
       <div className="TableRoyal"> 
-        <RowsCards Name="El Tupé de Tintín" Geo='Escobedo NL' Horarios='09:00 a 16:00'/>   
-        <RowsCards Name="Razor Edge" Geo='Monterrey NL' Horarios='10:00 a 18:00'/>
+       { <RowsCards Name="El Tupé de Tintín" Geo='Escobedo NL' Horarios='09:00 a 16:00'/>   
+        /* <RowsCards Name="Razor Edge" Geo='Monterrey NL' Horarios='10:00 a 18:00'/>
         <RowsCards Name="Barba Urbana" Geo='Guadalupe NL' Horarios='13:00 a 20:00'/>
-        <RowsCards Name="Modern Fade Studio" Geo='Juarez NL' Horarios='08:00 a 14:00'/> 
+        <RowsCards Name="Modern Fade Studio" Geo='Juarez NL' Horarios='08:00 a 14:00'/>  */}
       </div>
     </div>
   );
