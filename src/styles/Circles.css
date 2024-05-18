@@ -10,7 +10,7 @@
   grid-template-rows: repeat(3, 1fr);
   align-content: end;
   justify-content: end;
-  justify-items: center;
+  justify-items: center; /*Eje x*/
 }
 
 .CircleForm:hover{

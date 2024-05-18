@@ -30,7 +30,7 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
+  justify-items: center; /*Eje x*/
 }
 
 .Servicios {
@@ -42,7 +42,7 @@
   grid-template-rows: 2fr;
   align-content: center;  
   justify-content: center; 
-   justify-items: center; /*Eje x*/
+  justify-items: center; /*Eje x*/ /*Eje x*/
 }
 
 #lblServicio{
@@ -53,21 +53,21 @@
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
+  justify-items: center; /*Eje x*/
 }
 
 .Tel {
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
+  justify-items: center; /*Eje x*/
 }
 
 .Adrress {
   display: grid;
   justify-content: center;
   align-content: center;
-  justify-items: center;
+  justify-items: center; /*Eje x*/
 }
 
 .Redes {
@@ -76,5 +76,5 @@
   grid-template-rows: 2fr;
   align-content: center;  
   justify-content: center; 
-   justify-items: center; /*Eje x*/
+   justify-items: center; /*Eje x*/ /*Eje x*/
 }
