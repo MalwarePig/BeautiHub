@@ -2,9 +2,14 @@ import './../styles/Favs.css'
 export function Favorites(props) {
   return (
       <div className="QuadForm">
-        <img id="FavPort"src={props.ruta}></img>
-        <p id='TituloFav'>{props.Title}</p>
-        <p id="SubTituloFav">{props.SubTitle}</p>
+        <div id="FavPort">
+          <img src={props.ruta}></img>
+        </div>
+
+        <div id='TituloFav'>
+          <span>{props.Title}</span>
+          <h6>{props.SubTitle}</h6>
+        </div>  
       </div> 
   );
 }
